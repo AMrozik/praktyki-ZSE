@@ -21,4 +21,10 @@ public class CezarsCode {
         }
         System.out.println(zdanie_array);
     }
+
+    int a = 20;
+    int b = 9;
+    int c = 1;
+
+    
 }
