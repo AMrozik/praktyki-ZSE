@@ -26,5 +26,5 @@ public class CezarsCode {
     int b = 9;
     int c = 1;
 
-    
+
 }
