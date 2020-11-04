@@ -29,6 +29,5 @@ public class Main {
         BMW.set_all(color, 5, 12, 220);
 
         System.out.println(BMW.color);
-
     }
 }
