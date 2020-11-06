@@ -1,3 +1,4 @@
+import Kwiatek.Kwiatek;
 import zadania1.Uczen;
 
 import java.util.Scanner;
@@ -35,5 +36,8 @@ public class Main {
 
         //Sprawdzamy czy się udało
         System.out.println(BMW.color);
+
+        Kwiatek kwiatek1 = new Kwiatek( "stokrotka", "Cogito Ergo Sum", "Biały", "Common", false);
+        Kwiatek kwiatek2 = new Kwiatek();
     }
 }
