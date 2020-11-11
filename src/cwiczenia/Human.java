@@ -1,6 +1,6 @@
 package cwiczenia;
 
-public class Human {
+public class Human implements HumanInterface{
     protected double wzrost;
     protected char plec; // m - mezczyzna // k - kobieta // c - cos innego
     protected double rozmiar_buta;
@@ -22,6 +22,39 @@ public class Human {
     }
 
 
+    public void work(String where, int za_ile){
+        System.out.println("pracuje w " + where + "i zarabiam " + za_ile);
+    }
+
+    @Override
+    public void learn(String czego) {
+
+    }
+
+    @Override
+    public void run_forest() {
+
+    }
+
+    @Override
+    public Human give_birth() {
+        return null;
+    }
+
+    @Override
+    public void jedz() {
+
+    }
+
+    @Override
+    public void choruje() {
+
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 
     void setColor_wlosow(String color){
         if(!czy_lysy){

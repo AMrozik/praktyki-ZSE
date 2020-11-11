@@ -14,6 +14,4 @@ public class Wykladowca extends Human {
         this.przedmioty = przedmioty;
     }
 
-
-
 }
